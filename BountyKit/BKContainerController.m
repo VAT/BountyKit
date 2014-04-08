@@ -20,6 +20,13 @@
 
 @implementation BKContainerController
 
+- (void)viewDidLoad {
+
+    [super viewDidLoad];
+
+    self.view.backgroundColor = [UIColor clearColor];
+}
+
 - (void) viewDidAppear:(BOOL)animated {
 
     [self performSegueWithIdentifier:@"segueFirstScene" sender:self];

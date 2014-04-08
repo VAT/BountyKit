@@ -18,9 +18,12 @@
 @implementation BKCCViewController
 
 - (void) viewDidLoad {
+
     [super viewDidLoad];
 
     [self setupDirector];
+
+    self.view.backgroundColor = [UIColor clearColor];
 }
 
 - (void) viewDidDisappear:(BOOL)animated {
