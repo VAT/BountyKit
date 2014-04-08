@@ -42,10 +42,10 @@
         return (BKCCNavigationController *)director.delegate;
     }
 
-    BKCCNavigationController *navigationController = (BKCCNavigationController *)[UIApplication sharedApplication].keyWindow.rootViewController;
+    BKCCNavigationController *navigationController = (BKCCNavigationController *)[[[[UIApplication sharedApplication] delegate] window] rootViewController];
 
     NSAssert1([navigationController isKindOfClass:[BKCCNavigationController class]],
-              @"storyboards navigation controller (%@) is not of class BKNavigationController", navigationController);
+              @"storyboards navigation controller (%@) is not of class BKCCNavigationController", navigationController);
 
     return navigationController;
 }
@@ -64,7 +64,7 @@
     //  - Possible values: YES, NO
     // numberOfSamples: Only valid if multisampling is enabled
     //  - Possible values: 0 to glGetIntegerv(GL_MAX_SAMPLES_APPLE)
-    CCGLView *glView = [CCGLView viewWithFrame:[[[UIApplication sharedApplication] keyWindow] bounds]
+    CCGLView *glView = [CCGLView viewWithFrame:[[[[UIApplication sharedApplication] delegate] window] bounds]
                                    pixelFormat:kEAGLColorFormatRGB565
                                    depthFormat:0
                             preserveBackbuffer:NO
