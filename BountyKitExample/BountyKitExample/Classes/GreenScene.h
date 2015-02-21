@@ -1,8 +1,8 @@
 //
-//  OrangeScene.h
+//  FirstScene.h
 //  BountyKitExample
 //
-//  Created by denizz.tret on 14.02.14.
+//  Created by Denis Tretyakov on 12.02.14.
 //  Copyright (c) 2014 pythongem. All rights reserved.
 //
 
@@ -12,6 +12,6 @@
 #import "BKSceneControllerProtocol.h"
 
 
-@interface OrangeSceneLayer : CCLayer <BKSceneControllerProtocol>
+@interface GreenSceneLayer : CCLayer <BKSceneControllerProtocol>
 
 @end

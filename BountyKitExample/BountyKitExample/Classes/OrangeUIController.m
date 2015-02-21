@@ -1,19 +1,20 @@
 //
-//  GreenUIController.m
+//  OrangeUIController.m
 //  BountyKitExample
 //
-//  Created by denizz.tret on 14.02.14.
+//  Created by Denis Tretyakov on 14.02.14.
 //  Copyright (c) 2014 pythongem. All rights reserved.
 //
 
-#import "GreenUIController.h"
-#import "GreenScene.h"
+#import "OrangeUIController.h"
+#import "OrangeScene.h"
 
-@interface GreenUIController ()
+
+@interface OrangeUIController ()
 
 @end
 
-@implementation GreenUIController
+@implementation OrangeUIController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,7 +30,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 
-    [self loadSceneWithClass:[GreenSceneLayer class]];
+    [self loadSceneWithClass:[OrangeSceneLayer class]];
 }
 
 - (void)didReceiveMemoryWarning
