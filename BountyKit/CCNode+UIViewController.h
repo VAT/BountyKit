@@ -2,7 +2,7 @@
 //  BKScene.h
 //  BountyKit
 //
-//  Created by denizz.tret on 12.02.14.
+//  Created by Denis Tretyakov on 12.02.14.
 //  Copyright (c) 2014 pythongem. All rights reserved.
 //
 

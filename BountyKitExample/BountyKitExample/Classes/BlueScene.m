@@ -7,9 +7,6 @@
 //
 
 #import "BlueScene.h"
-#import "CCNode+UIViewController.h"
-
-#import "BKScene.h"
 
 @implementation BlueSceneLayer
 

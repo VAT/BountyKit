@@ -7,9 +7,6 @@
 //
 
 #import "OrangeScene.h"
-#import "CCNode+UIViewController.h"
-
-#import "BKScene.h"
 
 @implementation OrangeSceneLayer
 

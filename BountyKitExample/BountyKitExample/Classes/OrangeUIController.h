@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BKSceneViewController.h"
+#import <cocos2d/cocos2d.h>
+#import <BountyKit/BountyKit.h>
 
 @interface OrangeUIController : BKSceneViewController
 

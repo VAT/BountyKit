@@ -2,7 +2,7 @@
 //  BKSceneViewController.m
 //  BountyKit
 //
-//  Created by denizz.tret on 14.02.14.
+//  Created by Denis Tretyakov on 14.02.14.
 //  Copyright (c) 2014 pythongem. All rights reserved.
 //
 

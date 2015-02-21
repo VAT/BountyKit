@@ -6,11 +6,9 @@
 //  Copyright (c) 2014 pythongem. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import <cocos2d/cocos2d.h>
-
-#import "BKSceneControllerProtocol.h"
-
+#import <BountyKit/BountyKit.h>
 
 @interface GreenSceneLayer : CCLayer <BKSceneControllerProtocol>
 

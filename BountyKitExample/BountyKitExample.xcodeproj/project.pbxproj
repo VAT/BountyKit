@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		105FD0E018BE1F020066B258 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 105FD0DF18BE1F020066B258 /* GameScene.m */; };
-		105FD0E318BE1F0E0066B258 /* LoadProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 105FD0E218BE1F0E0066B258 /* LoadProgressLayer.m */; };
-		105FD0E618BE1F1A0066B258 /* GameLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 105FD0E518BE1F1A0066B258 /* GameLayer.m */; };
-		105FD0E918BE1F240066B258 /* GraphicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 105FD0E818BE1F240066B258 /* GraphicObject.m */; };
-		105FD0EF18BE22D00066B258 /* Loader.m in Sources */ = {isa = PBXBuildFile; fileRef = 105FD0EE18BE22D00066B258 /* Loader.m */; };
 		109463C318B5171E009DA915 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 109463C218B5171E009DA915 /* Foundation.framework */; };
 		109463C518B5171E009DA915 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 109463C418B5171E009DA915 /* CoreGraphics.framework */; };
 		109463C718B5171E009DA915 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 109463C618B5171E009DA915 /* UIKit.framework */; };
@@ -24,20 +19,13 @@
 		109463DE18B5171E009DA915 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 109463C618B5171E009DA915 /* UIKit.framework */; };
 		109463E618B5171E009DA915 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 109463E418B5171E009DA915 /* InfoPlist.strings */; };
 		109463E818B5171E009DA915 /* BountyKitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 109463E718B5171E009DA915 /* BountyKitExampleTests.m */; };
-		1094640218B51738009DA915 /* BKCCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109463F318B51738009DA915 /* BKCCNavigationController.m */; };
-		1094640318B51738009DA915 /* BKCCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109463F518B51738009DA915 /* BKCCViewController.m */; };
-		1094640418B51738009DA915 /* BKContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109463F718B51738009DA915 /* BKContainerController.m */; };
-		1094640518B51738009DA915 /* BKContainerSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 109463F918B51738009DA915 /* BKContainerSegue.m */; };
-		1094640618B51738009DA915 /* BKScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 109463FB18B51738009DA915 /* BKScene.m */; };
-		1094640818B51738009DA915 /* BKSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 109463FF18B51738009DA915 /* BKSceneViewController.m */; };
-		1094640918B51738009DA915 /* CCNode+UIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1094640118B51738009DA915 /* CCNode+UIViewController.m */; };
 		1094640B18B519FA009DA915 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1094640A18B519FA009DA915 /* Storyboard.storyboard */; };
-		1094641A18B51A15009DA915 /* BlueScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1094640D18B51A15009DA915 /* BlueScene.m */; };
-		1094641B18B51A15009DA915 /* BlueUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1094640F18B51A15009DA915 /* BlueUIController.m */; };
-		1094641C18B51A15009DA915 /* GreenScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1094641118B51A15009DA915 /* GreenScene.m */; };
-		1094641D18B51A15009DA915 /* GreenUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1094641318B51A15009DA915 /* GreenUIController.m */; };
-		1094641E18B51A15009DA915 /* OrangeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1094641518B51A15009DA915 /* OrangeScene.m */; };
-		1094641F18B51A15009DA915 /* OrangeUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1094641718B51A15009DA915 /* OrangeUIController.m */; };
+		10CBE8C51A9936AF00B3B7BC /* BlueScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CBE8BA1A9936AF00B3B7BC /* BlueScene.m */; };
+		10CBE8C61A9936AF00B3B7BC /* BlueUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CBE8BC1A9936AF00B3B7BC /* BlueUIController.m */; };
+		10CBE8C71A9936AF00B3B7BC /* GreenScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CBE8BE1A9936AF00B3B7BC /* GreenScene.m */; };
+		10CBE8C81A9936AF00B3B7BC /* GreenUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CBE8C01A9936AF00B3B7BC /* GreenUIController.m */; };
+		10CBE8C91A9936AF00B3B7BC /* OrangeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CBE8C21A9936AF00B3B7BC /* OrangeScene.m */; };
+		10CBE8CA1A9936AF00B3B7BC /* OrangeUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CBE8C41A9936AF00B3B7BC /* OrangeUIController.m */; };
 		D4956CACBD6E41E3B5997E82 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B5A0972A3E49BEA50F4BA6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -52,19 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		105FD0DE18BE1F020066B258 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		105FD0DF18BE1F020066B258 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		105FD0E118BE1F0E0066B258 /* LoadProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadProgressLayer.h; sourceTree = "<group>"; };
-		105FD0E218BE1F0E0066B258 /* LoadProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadProgressLayer.m; sourceTree = "<group>"; };
-		105FD0E418BE1F1A0066B258 /* GameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLayer.h; sourceTree = "<group>"; };
-		105FD0E518BE1F1A0066B258 /* GameLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLayer.m; sourceTree = "<group>"; };
-		105FD0E718BE1F240066B258 /* GraphicObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicObject.h; sourceTree = "<group>"; };
-		105FD0E818BE1F240066B258 /* GraphicObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicObject.m; sourceTree = "<group>"; };
-		105FD0EB18BE203D0066B258 /* LoadableDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadableDelegate.h; sourceTree = "<group>"; };
-		105FD0EC18BE20900066B258 /* Loadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loadable.h; sourceTree = "<group>"; };
-		105FD0ED18BE22D00066B258 /* Loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loader.h; sourceTree = "<group>"; };
-		105FD0EE18BE22D00066B258 /* Loader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Loader.m; sourceTree = "<group>"; };
-		1089BE1318C0CB4800C50A2E /* BKSceneControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKSceneControllerProtocol.h; sourceTree = "<group>"; };
 		109463BF18B5171E009DA915 /* BountyKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BountyKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		109463C218B5171E009DA915 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		109463C418B5171E009DA915 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -81,36 +56,22 @@
 		109463E318B5171E009DA915 /* BountyKitExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BountyKitExampleTests-Info.plist"; sourceTree = "<group>"; };
 		109463E518B5171E009DA915 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		109463E718B5171E009DA915 /* BountyKitExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BountyKitExampleTests.m; sourceTree = "<group>"; };
-		109463F218B51738009DA915 /* BKCCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BKCCNavigationController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		109463F318B51738009DA915 /* BKCCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BKCCNavigationController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		109463F418B51738009DA915 /* BKCCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BKCCViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		109463F518B51738009DA915 /* BKCCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BKCCViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		109463F618B51738009DA915 /* BKContainerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BKContainerController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		109463F718B51738009DA915 /* BKContainerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BKContainerController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		109463F818B51738009DA915 /* BKContainerSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BKContainerSegue.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		109463F918B51738009DA915 /* BKContainerSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BKContainerSegue.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		109463FA18B51738009DA915 /* BKScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BKScene.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		109463FB18B51738009DA915 /* BKScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BKScene.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		109463FE18B51738009DA915 /* BKSceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BKSceneViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		109463FF18B51738009DA915 /* BKSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BKSceneViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		1094640018B51738009DA915 /* CCNode+UIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "CCNode+UIViewController.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		1094640118B51738009DA915 /* CCNode+UIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "CCNode+UIViewController.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		1094640A18B519FA009DA915 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
-		1094640C18B51A15009DA915 /* BlueScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BlueScene.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		1094640D18B51A15009DA915 /* BlueScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BlueScene.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		1094640E18B51A15009DA915 /* BlueUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BlueUIController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		1094640F18B51A15009DA915 /* BlueUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BlueUIController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		1094641018B51A15009DA915 /* GreenScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GreenScene.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		1094641118B51A15009DA915 /* GreenScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GreenScene.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		1094641218B51A15009DA915 /* GreenUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GreenUIController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		1094641318B51A15009DA915 /* GreenUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GreenUIController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		1094641418B51A15009DA915 /* OrangeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OrangeScene.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		1094641518B51A15009DA915 /* OrangeScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = OrangeScene.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		1094641618B51A15009DA915 /* OrangeUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OrangeUIController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		1094641718B51A15009DA915 /* OrangeUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = OrangeUIController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		1094642518B52E7B009DA915 /* BountyKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BountyKit.h; sourceTree = "<group>"; };
-		98E63893E5AB4D56ACF36DE8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		10CBE8B91A9936AF00B3B7BC /* BlueScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueScene.h; sourceTree = "<group>"; };
+		10CBE8BA1A9936AF00B3B7BC /* BlueScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueScene.m; sourceTree = "<group>"; };
+		10CBE8BB1A9936AF00B3B7BC /* BlueUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueUIController.h; sourceTree = "<group>"; };
+		10CBE8BC1A9936AF00B3B7BC /* BlueUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueUIController.m; sourceTree = "<group>"; };
+		10CBE8BD1A9936AF00B3B7BC /* GreenScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenScene.h; sourceTree = "<group>"; };
+		10CBE8BE1A9936AF00B3B7BC /* GreenScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenScene.m; sourceTree = "<group>"; };
+		10CBE8BF1A9936AF00B3B7BC /* GreenUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenUIController.h; sourceTree = "<group>"; };
+		10CBE8C01A9936AF00B3B7BC /* GreenUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenUIController.m; sourceTree = "<group>"; };
+		10CBE8C11A9936AF00B3B7BC /* OrangeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrangeScene.h; sourceTree = "<group>"; };
+		10CBE8C21A9936AF00B3B7BC /* OrangeScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrangeScene.m; sourceTree = "<group>"; };
+		10CBE8C31A9936AF00B3B7BC /* OrangeUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrangeUIController.h; sourceTree = "<group>"; };
+		10CBE8C41A9936AF00B3B7BC /* OrangeUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrangeUIController.m; sourceTree = "<group>"; };
+		555A73FA1F2FFC68266E5649 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B4B5A0972A3E49BEA50F4BA6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90A40E1FAEC1A4E6A131DEE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,53 +99,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		105FD0DD18BE1EA80066B258 /* Test 1 */ = {
+		0577A6DA3BEFD7E9F8DEF7D2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1094641018B51A15009DA915 /* GreenScene.h */,
-				1094641118B51A15009DA915 /* GreenScene.m */,
-				1094641218B51A15009DA915 /* GreenUIController.h */,
-				1094641318B51A15009DA915 /* GreenUIController.m */,
-				1094640C18B51A15009DA915 /* BlueScene.h */,
-				1094640D18B51A15009DA915 /* BlueScene.m */,
-				1094640E18B51A15009DA915 /* BlueUIController.h */,
-				1094640F18B51A15009DA915 /* BlueUIController.m */,
-				1094641418B51A15009DA915 /* OrangeScene.h */,
-				1094641518B51A15009DA915 /* OrangeScene.m */,
-				1094641618B51A15009DA915 /* OrangeUIController.h */,
-				1094641718B51A15009DA915 /* OrangeUIController.m */,
+				555A73FA1F2FFC68266E5649 /* Pods.debug.xcconfig */,
+				D90A40E1FAEC1A4E6A131DEE /* Pods.release.xcconfig */,
 			);
-			name = "Test 1";
-			sourceTree = "<group>";
-		};
-		105FD0EA18BE1FCD0066B258 /* Test Loader */ = {
-			isa = PBXGroup;
-			children = (
-				105FD0EB18BE203D0066B258 /* LoadableDelegate.h */,
-				105FD0EC18BE20900066B258 /* Loadable.h */,
-				105FD0ED18BE22D00066B258 /* Loader.h */,
-				105FD0EE18BE22D00066B258 /* Loader.m */,
-				105FD0DE18BE1F020066B258 /* GameScene.h */,
-				105FD0DF18BE1F020066B258 /* GameScene.m */,
-				105FD0E118BE1F0E0066B258 /* LoadProgressLayer.h */,
-				105FD0E218BE1F0E0066B258 /* LoadProgressLayer.m */,
-				105FD0E418BE1F1A0066B258 /* GameLayer.h */,
-				105FD0E518BE1F1A0066B258 /* GameLayer.m */,
-				105FD0E718BE1F240066B258 /* GraphicObject.h */,
-				105FD0E818BE1F240066B258 /* GraphicObject.m */,
-			);
-			name = "Test Loader";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		109463B618B5171E009DA915 = {
 			isa = PBXGroup;
 			children = (
-				109463F118B51738009DA915 /* BountyKit */,
 				109463C818B5171E009DA915 /* BountyKitExample */,
 				109463E118B5171E009DA915 /* BountyKitExampleTests */,
 				109463C118B5171E009DA915 /* Frameworks */,
 				109463C018B5171E009DA915 /* Products */,
-				98E63893E5AB4D56ACF36DE8 /* Pods.xcconfig */,
+				0577A6DA3BEFD7E9F8DEF7D2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,7 +143,7 @@
 		109463C818B5171E009DA915 /* BountyKitExample */ = {
 			isa = PBXGroup;
 			children = (
-				1094642118B51A20009DA915 /* Classes */,
+				10CBE8B81A9936AF00B3B7BC /* Classes */,
 				1094640A18B519FA009DA915 /* Storyboard.storyboard */,
 				109463D118B5171E009DA915 /* AppDelegate.h */,
 				109463D218B5171E009DA915 /* AppDelegate.m */,
@@ -251,61 +182,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		109463F118B51738009DA915 /* BountyKit */ = {
+		10CBE8B81A9936AF00B3B7BC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1094642518B52E7B009DA915 /* BountyKit.h */,
-				1094642218B51B8D009DA915 /* Controllers */,
-				1094642318B51B97009DA915 /* Containers */,
-				1094642418B51BA4009DA915 /* Scenes */,
+				10CBE8B91A9936AF00B3B7BC /* BlueScene.h */,
+				10CBE8BA1A9936AF00B3B7BC /* BlueScene.m */,
+				10CBE8BB1A9936AF00B3B7BC /* BlueUIController.h */,
+				10CBE8BC1A9936AF00B3B7BC /* BlueUIController.m */,
+				10CBE8BD1A9936AF00B3B7BC /* GreenScene.h */,
+				10CBE8BE1A9936AF00B3B7BC /* GreenScene.m */,
+				10CBE8BF1A9936AF00B3B7BC /* GreenUIController.h */,
+				10CBE8C01A9936AF00B3B7BC /* GreenUIController.m */,
+				10CBE8C11A9936AF00B3B7BC /* OrangeScene.h */,
+				10CBE8C21A9936AF00B3B7BC /* OrangeScene.m */,
+				10CBE8C31A9936AF00B3B7BC /* OrangeUIController.h */,
+				10CBE8C41A9936AF00B3B7BC /* OrangeUIController.m */,
 			);
-			name = BountyKit;
-			path = ../BountyKit;
-			sourceTree = "<group>";
-		};
-		1094642118B51A20009DA915 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				105FD0DD18BE1EA80066B258 /* Test 1 */,
-				105FD0EA18BE1FCD0066B258 /* Test Loader */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		1094642218B51B8D009DA915 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				109463F218B51738009DA915 /* BKCCNavigationController.h */,
-				109463F318B51738009DA915 /* BKCCNavigationController.m */,
-				109463F418B51738009DA915 /* BKCCViewController.h */,
-				109463F518B51738009DA915 /* BKCCViewController.m */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		1094642318B51B97009DA915 /* Containers */ = {
-			isa = PBXGroup;
-			children = (
-				109463F618B51738009DA915 /* BKContainerController.h */,
-				109463F718B51738009DA915 /* BKContainerController.m */,
-				109463F818B51738009DA915 /* BKContainerSegue.h */,
-				109463F918B51738009DA915 /* BKContainerSegue.m */,
-			);
-			name = Containers;
-			sourceTree = "<group>";
-		};
-		1094642418B51BA4009DA915 /* Scenes */ = {
-			isa = PBXGroup;
-			children = (
-				109463FA18B51738009DA915 /* BKScene.h */,
-				109463FB18B51738009DA915 /* BKScene.m */,
-				109463FE18B51738009DA915 /* BKSceneViewController.h */,
-				109463FF18B51738009DA915 /* BKSceneViewController.m */,
-				1094640018B51738009DA915 /* CCNode+UIViewController.h */,
-				1094640118B51738009DA915 /* CCNode+UIViewController.m */,
-				1089BE1318C0CB4800C50A2E /* BKSceneControllerProtocol.h */,
-			);
-			name = Scenes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,7 +213,6 @@
 				109463BC18B5171E009DA915 /* Frameworks */,
 				109463BD18B5171E009DA915 /* Resources */,
 				1A8A1146D3514F4D86FBC228 /* Copy Pods Resources */,
-				OBJCLEANCUSTOMRUNSCRIPTT /* Objective-Clean Run Script */,
 			);
 			buildRules = (
 			);
@@ -415,7 +307,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		80068EEF2FFC408FA3DF199C /* Check Pods Manifest.lock */ = {
@@ -433,20 +325,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		OBJCLEANCUSTOMRUNSCRIPTT /* Objective-Clean Run Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Objective-Clean Run Script";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/bash;
-			shellScript = "if [[ -z ${SKIP_OBJCLEAN} || ${SKIP_OBJCLEAN} != 1 ]]; then\nif [[ -d \"${LOCAL_APPS_DIR}/Objective-Clean.app\" ]]; then \n\"${LOCAL_APPS_DIR}\"/Objective-Clean.app/Contents/Resources/ObjClean.app/Contents/MacOS/ObjClean \"${SRCROOT}\" \nelse\necho \"warning: You have to install and set up Objective-Clean to use its features!\" \nfi\nfi";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -454,26 +332,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1094640618B51738009DA915 /* BKScene.m in Sources */,
-				1094641D18B51A15009DA915 /* GreenUIController.m in Sources */,
-				105FD0E018BE1F020066B258 /* GameScene.m in Sources */,
 				109463D318B5171E009DA915 /* AppDelegate.m in Sources */,
-				1094640318B51738009DA915 /* BKCCViewController.m in Sources */,
-				1094641B18B51A15009DA915 /* BlueUIController.m in Sources */,
-				1094641C18B51A15009DA915 /* GreenScene.m in Sources */,
-				105FD0E918BE1F240066B258 /* GraphicObject.m in Sources */,
-				1094640218B51738009DA915 /* BKCCNavigationController.m in Sources */,
-				105FD0EF18BE22D00066B258 /* Loader.m in Sources */,
-				1094641A18B51A15009DA915 /* BlueScene.m in Sources */,
-				105FD0E318BE1F0E0066B258 /* LoadProgressLayer.m in Sources */,
-				1094641E18B51A15009DA915 /* OrangeScene.m in Sources */,
-				105FD0E618BE1F1A0066B258 /* GameLayer.m in Sources */,
+				10CBE8C81A9936AF00B3B7BC /* GreenUIController.m in Sources */,
 				109463CF18B5171E009DA915 /* main.m in Sources */,
-				1094640918B51738009DA915 /* CCNode+UIViewController.m in Sources */,
-				1094640518B51738009DA915 /* BKContainerSegue.m in Sources */,
-				1094641F18B51A15009DA915 /* OrangeUIController.m in Sources */,
-				1094640418B51738009DA915 /* BKContainerController.m in Sources */,
-				1094640818B51738009DA915 /* BKSceneViewController.m in Sources */,
+				10CBE8C71A9936AF00B3B7BC /* GreenScene.m in Sources */,
+				10CBE8C51A9936AF00B3B7BC /* BlueScene.m in Sources */,
+				10CBE8CA1A9936AF00B3B7BC /* OrangeUIController.m in Sources */,
+				10CBE8C61A9936AF00B3B7BC /* BlueUIController.m in Sources */,
+				10CBE8C91A9936AF00B3B7BC /* OrangeScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,7 +453,7 @@
 		};
 		109463EC18B5171E009DA915 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98E63893E5AB4D56ACF36DE8 /* Pods.xcconfig */;
+			baseConfigurationReference = 555A73FA1F2FFC68266E5649 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -601,7 +467,7 @@
 		};
 		109463ED18B5171E009DA915 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98E63893E5AB4D56ACF36DE8 /* Pods.xcconfig */;
+			baseConfigurationReference = D90A40E1FAEC1A4E6A131DEE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

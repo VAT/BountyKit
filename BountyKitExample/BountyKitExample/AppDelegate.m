@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  BountyKitExample
 //
-//  Created by Денис Третьяков on 19.02.14.
+//  Created by Denis Tretyakov on 19.02.14.
 //  Copyright (c) 2014 pythongem. All rights reserved.
 //
 
@@ -13,7 +13,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    NSLog((@" >>> %s "), __PRETTY_FUNCTION__);
     return YES;
 }
 

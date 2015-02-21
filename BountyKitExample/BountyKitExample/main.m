@@ -2,7 +2,7 @@
 //  main.m
 //  BountyKitExample
 //
-//  Created by Денис Третьяков on 19.02.14.
+//  Created by Denis Tretyakov on 19.02.14.
 //  Copyright (c) 2014 pythongem. All rights reserved.
 //
 

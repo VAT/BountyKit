@@ -1,12 +1,30 @@
 PODS:
-  - cocos2d (2.1):
-    - cocos2d/CocosDenshion
-  - cocos2d/CocosDenshion (2.1)
+  - BountyKit (0.2):
+    - BountyKit/Containers (= 0.2)
+    - BountyKit/Controllers (= 0.2)
+    - BountyKit/Scenes (= 0.2)
+    - cocos2d (~> 2.1)
+  - BountyKit/Containers (0.2):
+    - cocos2d (~> 2.1)
+  - BountyKit/Controllers (0.2):
+    - cocos2d (~> 2.1)
+  - BountyKit/Scenes (0.2):
+    - BountyKit/Controllers
+    - cocos2d (~> 2.1)
+  - cocos2d (2.2):
+    - cocos2d/CocosDenshion (= 2.2)
+  - cocos2d/CocosDenshion (2.2)
 
 DEPENDENCIES:
-  - cocos2d (= 2.1)
+  - BountyKit (= 0.2)
+  - cocos2d (from `cocos2d.podspec`)
+
+EXTERNAL SOURCES:
+  cocos2d:
+    :podspec: cocos2d.podspec
 
 SPEC CHECKSUMS:
-  cocos2d: 1ee107ccb03edf8f72f846e87b7d71c96fbfe6bc
+  BountyKit: c4a8a6222aba0439de8615c164e7672b5c45f47a
+  cocos2d: b1f644730c1d0a1babad4d2e66fd0c4682463f5c
 
-COCOAPODS: 0.29.0
+COCOAPODS: 0.36.0.beta.2
