@@ -20,3 +20,5 @@ DerivedData
 #CocoaPods
 Podfile.lock
 Pods
+BountyKitExample/Podfile.lock
+BountyKitExample/Pods

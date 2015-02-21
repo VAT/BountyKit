@@ -3,10 +3,14 @@ PODS:
     - BountyKit/Containers (= 0.2.1)
     - BountyKit/Controllers (= 0.2.1)
     - BountyKit/Scenes (= 0.2.1)
-  - BountyKit/Containers (0.2.1)
-  - BountyKit/Controllers (0.2.1)
+    - cocos2d (~> 2.2)
+  - BountyKit/Containers (0.2.1):
+    - cocos2d (~> 2.2)
+  - BountyKit/Controllers (0.2.1):
+    - cocos2d (~> 2.2)
   - BountyKit/Scenes (0.2.1):
     - BountyKit/Controllers
+    - cocos2d (~> 2.2)
   - cocos2d (2.2):
     - cocos2d/CocosDenshion (= 2.2)
   - cocos2d/CocosDenshion (2.2)
@@ -23,11 +27,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   BountyKit:
-    :commit: a561f441d63f05bfa1004c7330f80bd0a721f7c1
+    :commit: fce9a737f9b7b62b6825e8c5b9eb38da3a660df3
     :git: https://github.com/denizztret/BountyKit.git
 
 SPEC CHECKSUMS:
-  BountyKit: 6a485daae294c41f34d45f7ffe8381981280bc6c
+  BountyKit: acf543c4f0e4f54ff4e914ca7a7912159de49e3c
   cocos2d: b1f644730c1d0a1babad4d2e66fd0c4682463f5c
 
 COCOAPODS: 0.36.0.beta.2
