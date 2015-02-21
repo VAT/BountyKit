@@ -1,7 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/VAT/VATPods-specs.git'
+source 'https://github.com/denizztret/BountyKit.git'
 
 platform :ios, "6.0"
 
-pod 'BountyKit', '~> 0.2'
+pod 'BountyKit', '~> 0.2.1'
 pod 'cocos2d', :podspec => 'cocos2d.podspec'

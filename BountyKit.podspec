@@ -1,19 +1,19 @@
 Pod::Spec.new do |s|
   s.name         = "BountyKit"
-  s.version      = "0.2"
+  s.version      = "0.2.1"
   s.summary      = "Cocos2d + UIKit + Storyboard + Containers"
   s.description  = "Cocos2d + UIKit + Storyboard + Containers (long desc)"
   s.homepage     = "https://bitbucket.org/denizztret/bountykit/wiki/Home"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { "Denis Tretyakov" => "denizz.tret@gmail.com", "Ilia Rezyapkin" => "neonorama@gmail.com" }
-  s.platform     = :ios, '5.0'
+  s.platform     = :ios, '6.0'
   s.source       = { :git => "https://github.com/VAT/BountyKit.git", :tag => "#{s.version}" }
 
   s.source_files  = 'BountyKit/BountyKit.h'
   s.public_header_files = 'BountyKit/*.h'
 
   s.requires_arc = true
-  s.dependency 'cocos2d', '~> 2.1'
+  s.dependency 'cocos2d', '~> 2.2'
   s.xcconfig =  { 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/cocos2d/external/kazmath/include"' }
   
   s.subspec 'Controllers' do |ss|
