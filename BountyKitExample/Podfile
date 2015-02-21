@@ -3,5 +3,5 @@ source 'https://github.com/denizztret/BountyKit.git'
 
 platform :ios, "6.0"
 
-pod 'BountyKit', '~> 0.2.1'
+pod 'BountyKit', :git => 'https://github.com/denizztret/BountyKit.git'
 pod 'cocos2d', :podspec => 'cocos2d.podspec'

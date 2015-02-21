@@ -13,6 +13,8 @@ Pod::Spec.new do |s|
   s.public_header_files = 'BountyKit/*.h'
 
   s.requires_arc = true
+  s.dependency 'cocos2d', '~> 2.2'
+  s.xcconfig =  { 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/cocos2d/external/kazmath/include"' }
 
   s.subspec 'Controllers' do |ss|
     ss.source_files = 'BountyKit/BKCC{Navigation,View}Controller.{h,m}'
