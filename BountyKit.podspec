@@ -3,11 +3,11 @@ Pod::Spec.new do |s|
   s.version      = "0.2.1"
   s.summary      = "Cocos2d + UIKit + Storyboard + Containers"
   s.description  = "Cocos2d + UIKit + Storyboard + Containers (long desc)"
-  s.homepage     = "https://bitbucket.org/denizztret/bountykit/wiki/Home"
+  s.homepage     = "https://github.com/denizztret/BountyKit"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.authors      = { "Denis Tretyakov" => "denizz.tret@gmail.com", "Ilia Rezyapkin" => "neonorama@gmail.com" }
+  s.authors      = { "Denis Tretyakov" => "denizz.tret@gmail.com" }
   s.platform     = :ios, '6.0'
-  s.source       = { :git => "https://github.com/VAT/BountyKit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/denizztret/BountyKit.git", :tag => "#{s.version}" }
 
   s.source_files  = 'BountyKit/BountyKit.h'
   s.public_header_files = 'BountyKit/*.h'
