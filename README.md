@@ -1,8 +1,8 @@
-# New BountyKit Project
+# BountyKit Project
 
 ## Pod source
 
-`pod repo add CCPods git@bitbucket.org:denizztret/bountykit.git`
+`source 'https://github.com/denizztret/BountyKit.git'`
 
 
 ## Create Project
@@ -15,10 +15,8 @@
 Add code:
 
     platform :ios, "6.0"
-    pod 'cocos2d',  '~> 2.1'
-    pod 'box2d',    '~> 2.3.0'
-    pod 'GBox2D',   '~> 1.0.1'
-    pod 'BountyKit', :head
+    pod 'BountyKit', :git => 'https://github.com/denizztret/BountyKit.git'
+    pod 'cocos2d', :podspec => 'cocos2d.podspec'
 
 
 `$ pod install`
